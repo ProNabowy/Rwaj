@@ -1,0 +1,39 @@
+{
+	"name": "rwaj",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"svgr": "npx @svgr/cli --out-dir ./icons --ignore-existing --typescript --no-prettier -- ./public/icons",
+		"lint": "next lint",
+		"prettier": "npx prettier --write ."
+	},
+	"dependencies": {
+		"react": "^18",
+		"react-dom": "^18",
+		"next": "14.1.1-canary.52",
+		"react-query": "^3.39.3",
+		"@emotion/react": "^11.11.1",
+		"@emotion/styled": "^11.11.0",
+		"@mui/icons-material": "^5.15.0",
+		"@mui/lab": "^5.0.0-alpha.161",
+		"@mui/material": "^5.15.11",
+		"@mui/material-nextjs": "^5.15.11",
+		"axios": "^1.6.2",
+		"formik": "^2.4.5",
+		"react-toastify": "^10.0.3",
+		"yup": "^1.3.3"
+	},
+	"devDependencies": {
+		"typescript": "^5",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"eslint": "^8",
+		"prettier": "^3.3.2",
+		"prettier-plugin-organize-imports": "^3.2.4",
+		"eslint-config-next": "14.1.1-canary.52"
+	}
+}
