@@ -86,7 +86,7 @@ tsconfig.json
 Ensure you have the following installed on your system:
 - Node.js
 - npm or yarn
-- Vite (for development server)
+- Nextjs (for development server)
 
 ### Installation
 1. Clone the repository: 
